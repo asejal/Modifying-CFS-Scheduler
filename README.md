@@ -1,5 +1,5 @@
 # Modifying-CFS-Scheduler
-Modified CFS Scheduler by adding a soft real-time requirement for a process. Higher priority is given to processes with a soft real-time requirement. This modification is done by introducing a new parameter corresponding to the soft real-time requirement, implementing a system call which sets thi parameter's value and modifying the selection process for the RB tree in a Linux system using OPerating Systems concepts. This is tested through C code.
+Modified CFS Scheduler by adding a soft real-time requirement for a process. Higher priority is given to processes with a soft real-time requirement. This modification is done by introducing a new parameter corresponding to the soft real-time requirement, implementing a system call which sets thi parameter's value and modifying the selection process for the RB tree in a Linux system using Operating Systems concepts. This is tested through C code.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Description of Code
